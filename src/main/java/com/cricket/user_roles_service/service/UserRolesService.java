@@ -44,4 +44,10 @@ public class UserRolesService {
         return allRoles;
     }
 
+
+	public UserRolesEntity createUserRole(UserRolesEntity entity) {
+		UserRolesEntity saved=userRolesRepository.saveAndFlush(entity);
+		return saved;
+	}
+
 }
