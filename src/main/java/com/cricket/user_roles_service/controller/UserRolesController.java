@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cricket.user_roles_service.entity.UserRolesEntity;
 import com.cricket.user_roles_service.service.UserRolesService;
 
-@RestController  // Add this annotation to mark the class as a controller
-@RequestMapping("/api/user-roles")  // Define the base path for the controller
+@RestController  
+@RequestMapping("/api/user-roles")  
 public class UserRolesController {
     
 	@Autowired
